@@ -1,0 +1,18 @@
+{
+  "name": "simple-fastify-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Emanuel Tesar",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "@types/node-fetch": "^3.0.3",
+    "fastify": "^3.24.0",
+    "node-fetch": "2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  }
+}
